@@ -84,12 +84,12 @@ class EachTestCases extends React.Component {
             {
                 return(<p>SUCCESS_PERCENTAGE_FAILURE</p>)
             }
-            else if(sts.startsWith("Total"))
-            {
-                return(<p>{sts}</p>)
-            }
+//             else if(sts.startsWith("Total"))
+//             {
+//                 return(<p>{sts}</p>)
+//             }
             else{
-                return(<p>STATUS UNKNOWN</p>)
+                return(<p>{sts}</p>)
             }
         }
         return (
